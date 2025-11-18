@@ -11,5 +11,3 @@ def read_yaml(file_path):
         return {}
     except yaml.YAMLError:
         print(f"YAML READ ERROR")
-    else:
-        print("YAML READ SUCCESS! :)")
