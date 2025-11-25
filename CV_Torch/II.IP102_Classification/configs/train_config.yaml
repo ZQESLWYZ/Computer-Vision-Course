@@ -34,5 +34,5 @@ model:
 exp:
   name: "exp_001"
   save_dir: "./experiments/exp_001"
-  # 每100个batch记录一次
-  log_interval: 100
+  # 每10个batch记录一次
+  log_interval: 10
